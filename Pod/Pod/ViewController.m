@@ -29,8 +29,9 @@
 
     self.view.backgroundColor = [UIColor whiteColor];
 
-    UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(20.0f, 100.0f, 200, 60.0f)];
+    UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(20.0f, 100.0f, 280.0f, 60.0f)];
     textField.backgroundColor = [UIColor lightGrayColor];
+    textField.layer.cornerRadius = 10.0f;
     [self.view addSubview:textField];
 
     UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone
