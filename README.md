@@ -1,5 +1,7 @@
 # UIViewController-HYPKeyboardToolbar
 
+An easy way to reposition a ViewController's UIToolbar when showing the keyboard.
+
 ![Example](https://raw.githubusercontent.com/hyperoslo/UIViewController-HYPKeyboardToolbar/master/Images/keyboard-v2.gif)
 
 ## Usage
