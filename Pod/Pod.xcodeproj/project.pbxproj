@@ -12,6 +12,7 @@
 		146D729F1AB782920058798C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146D729E1AB782920058798C /* ViewController.m */; };
 		146D72A41AB782920058798C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146D72A31AB782920058798C /* Images.xcassets */; };
 		146D72B31AB782920058798C /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 146D72B21AB782920058798C /* Tests.m */; };
+		14EABC241AB7926D00DFF4D1 /* UIViewController+HYPKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EABC231AB7926D00DFF4D1 /* UIViewController+HYPKeyboardToolbar.m */; };
 		DAC1DF7CF0E665DC7BEF9584 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A09B846A037CDC573D47530F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +33,6 @@
 		145049721AB785A800D9745F /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		145049731AB785A800D9745F /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		145049741AB785A800D9745F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1450497A1AB785C700D9745F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		146D72931AB782920058798C /* Pod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146D72971AB782920058798C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		146D72981AB782920058798C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +42,8 @@
 		146D72AC1AB782920058798C /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146D72B11AB782920058798C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		146D72B21AB782920058798C /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		14EABC221AB7926D00DFF4D1 /* UIViewController+HYPKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HYPKeyboardToolbar.h"; sourceTree = "<group>"; };
+		14EABC231AB7926D00DFF4D1 /* UIViewController+HYPKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HYPKeyboardToolbar.m"; sourceTree = "<group>"; };
 		64389791189731955E9D3CBC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A09B846A037CDC573D47530F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66346CDF98A6A2D2E43E7CD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,7 +91,8 @@
 		145049791AB785C700D9745F /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				1450497A1AB785C700D9745F /* .gitkeep */,
+				14EABC221AB7926D00DFF4D1 /* UIViewController+HYPKeyboardToolbar.h */,
+				14EABC231AB7926D00DFF4D1 /* UIViewController+HYPKeyboardToolbar.m */,
 			);
 			name = Source;
 			path = ../Source;
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				146D729F1AB782920058798C /* ViewController.m in Sources */,
+				14EABC241AB7926D00DFF4D1 /* UIViewController+HYPKeyboardToolbar.m in Sources */,
 				146D72991AB782920058798C /* main.m in Sources */,
 				1450496F1AB7858300D9745F /* AppDelegate.m in Sources */,
 			);
