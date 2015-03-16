@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/UIViewController-HYPKeyboardToolbar.svg?style=flat)](http://cocoadocs.org/docsets/UIViewController-HYPKeyboardToolbar)
 [![Platform](https://img.shields.io/cocoapods/p/UIViewController-HYPKeyboardToolbar.svg?style=flat)](http://cocoadocs.org/docsets/UIViewController-HYPKeyboardToolbar)
 
+## Example
+
+![Example](https://raw.githubusercontent.com/hyperoslo/UIViewController-HYPKeyboardToolbar/master/Images/keyboard.gif)
+
 ## Usage
 
 ```objc
