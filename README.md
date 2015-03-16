@@ -5,8 +5,12 @@
 ## Usage
 
 ```objc
+#import "UIViewController+HYPKeyboardToolbar.h"
+
+// Usually in init
 - (void)hyp_addKeyboardToolbarObservers;
 
+// Usually in dealloc
 - (void)hyp_removeKeyboardToolbarObservers;
 ```
 
