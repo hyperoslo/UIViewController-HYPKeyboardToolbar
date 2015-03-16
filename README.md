@@ -1,18 +1,13 @@
 # UIViewController-HYPKeyboardToolbar
 
-[![CI Status](http://img.shields.io/travis/hyperoslo/UIViewController-HYPKeyboardToolbar.svg?style=flat)](https://travis-ci.org/hyperoslo/UIViewController-HYPKeyboardToolbar)
-[![Version](https://img.shields.io/cocoapods/v/UIViewController-HYPKeyboardToolbar.svg?style=flat)](http://cocoadocs.org/docsets/UIViewController-HYPKeyboardToolbar)
-[![License](https://img.shields.io/cocoapods/l/UIViewController-HYPKeyboardToolbar.svg?style=flat)](http://cocoadocs.org/docsets/UIViewController-HYPKeyboardToolbar)
-[![Platform](https://img.shields.io/cocoapods/p/UIViewController-HYPKeyboardToolbar.svg?style=flat)](http://cocoadocs.org/docsets/UIViewController-HYPKeyboardToolbar)
-
-## Example
-
 ![Example](https://raw.githubusercontent.com/hyperoslo/UIViewController-HYPKeyboardToolbar/master/Images/keyboard-v2.gif)
 
 ## Usage
 
 ```objc
-<API>
+- (void)hyp_addKeyboardToolbarObservers;
+
+- (void)hyp_removeKeyboardToolbarObservers;
 ```
 
 ## Installation
