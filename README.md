@@ -7,7 +7,7 @@
 
 ## Example
 
-![Example](https://raw.githubusercontent.com/hyperoslo/UIViewController-HYPKeyboardToolbar/master/Images/keyboard.gif)
+![Example](https://raw.githubusercontent.com/hyperoslo/UIViewController-HYPKeyboardToolbar/master/Images/keyboard-v2.gif)
 
 ## Usage
 
