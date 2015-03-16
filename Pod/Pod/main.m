@@ -1,9 +1,9 @@
 //
 //  main.m
-//  Component
+//  Pod
 //
-//  Created by Elvis Nuñez on 12/03/15.
-//  Copyright (c) 2015 Hyper Interaktiv. All rights reserved.
+//  Created by Elvis Nuñez on 3/16/15.
+//  Copyright (c) 2015 Example. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
